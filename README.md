@@ -1,6 +1,6 @@
 ﻿# PythonLink
 
-This project receives files from the board via USB.
+This program receives files from the board via USB.
 
 ## Running the program
 
@@ -13,3 +13,8 @@ This project receives files from the board via USB.
 
 - This program assumes that the 'Receiver.c' program is running on the board.
 - The COM port is hardcoded in this program and may need to be modified to accomodate the specific COM port that the board is connected to.
+
+# Bytes
+
+This program converts a .png file into a byte stream. These bytes can be copied into, and hard coded, onto the boards.
+
